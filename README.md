@@ -22,7 +22,7 @@ M. Gaur, A. Alambo, J. P. Sain, U. Kursuncu, K. Thirunarayan, R. Kavuluru, A. Sh
 
 NOTE: If you are using an M1/M2 chip Macbook pro, please download Tensorflow by following this guide: https://developer.apple.com/metal/tensorflow-plugin/
 
-## To run preprocessing code (create_external_features.py) and create the External_Features.csv file (this is optional because we already provided this file), you need to run the following commands:
+## To run preprocessing code (external_features.py) and create the data/External_Features.csv file (this is optional because we already provided this file), you need to run the following commands:
 - python3 -m spacy download en_core_web_sm
 - python3 external_features.py
 
